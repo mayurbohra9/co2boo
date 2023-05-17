@@ -1,0 +1,9 @@
+@media screen and (min-width: 375px){
+    Container{
+        /* width: 100% !important; */
+    }
+
+    .Container ul {
+        /* width: 10% !important; */
+    }
+}
