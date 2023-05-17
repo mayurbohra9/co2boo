@@ -12,7 +12,7 @@ import 'firebase/compat/firestore';
 const firebaseConfig = {
   apiKey: "AIzaSyCHznhkg8zSjSnicRXjXpOCN_xFnatH4Po",
   authDomain: "co2boo-1c607.firebaseapp.com",
-  databaseURL: "https://co2boo-1c607-default-rtdb.firebaseio.com/",
+  // databaseURL: "https://co2boo-1c607-default-rtdb.firebaseio.com/",
   projectId: "co2boo-1c607",
   storageBucket: "co2boo-1c607.appspot.com",
   messagingSenderId: "525683213281",

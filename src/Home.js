@@ -164,7 +164,9 @@ function Home() {
 				<br /> <br />
       <Container className='Container'>
 				<Row>		
-					<ul>
+					<ul style={{
+								textAlign:'center'
+							}}>
 						{userInfo.map(userInfo => <h1 key={userInfo}>Welcome, {userInfo.data.firstName}!</h1>)}
 					</ul>
 						<Col>
@@ -301,11 +303,11 @@ function Home() {
 								<br />
 								<Button onClick={recordFood} type="submit" style={{
 									font: 'inherit', cursor: 'pointer',
-									border: '1px solid bisque', background: 'bisque', color: 'black', padding: '0.5rem 2rem'
+									border: '1px solid bisque', background: 'bisque', color: 'black', padding: '0.5rem 2rem', marginLeft:'75px'
 								}}>Submit </Button>
 
 								<br /><br />
-								<h5 style={{ fontSize: 29, color: "" }}>
+								<h5 style={{ fontSize: 20, textAlign:'center' }}>
 									The total amount of CO2 will be &nbsp; {calculateTotal()}
 									&nbsp; kg of CO2 in one year.
 								</h5>
@@ -314,7 +316,7 @@ function Home() {
 							
 								<Button  type="submit" style={{
 									font: 'inherit', cursor: 'pointer',
-									border: '1px solid bisque', background: 'bisque', color: 'black', padding: '0.5rem 2rem'
+									border: '1px solid bisque', background: 'bisque', color: 'black', padding: '0.5rem 2rem', marginLeft:'75px'
 								}}>Sign out </Button>
 							</form>
 							
@@ -325,8 +327,12 @@ function Home() {
 
 
 						<Col>
-
+							<p 
+							style={{
+								textAlign:'center'
+							}}>
 							Pie will show as soon as you make selections. Hold your cursor on each pie slice to check the CO2 emition percentage of each product.
+							</p>
 							<br />
 							<br />
 							<div>

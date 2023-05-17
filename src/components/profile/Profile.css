@@ -28,7 +28,6 @@
 .column{
     float: left;
     width: 50%;
-
     padding: 10px;
     height: 300px;
 }
@@ -37,9 +36,10 @@
     background-image: url('../../img/background.jpg');
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 390px){
     .column{
         width: 100% !important;
         padding-left: 20px !important;
+        /* font-size: 800px !important; */
     }
 }

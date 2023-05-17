@@ -57,13 +57,13 @@
     background-image: url('../../img/background.jpg');
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 390px){
    .header-card{ 
-        width: 375px !important; 
+        width: 100% !important; 
     }
 
     .row{
-        width: 387px !important;
+        width: 400px !important;
     }
 
     .column1{
